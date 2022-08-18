@@ -1,3 +1,3 @@
-# Final Fantasy VII party generator
+# Final Fantasy IX party generator
 
-Access [here](https://tukkek.github.io/ff7-party/).
+Access [here](https://tukkek.github.io/ff9-party/).
