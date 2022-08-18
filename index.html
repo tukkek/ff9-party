@@ -1,0 +1,20 @@
+<title>Final Fantasy IX party generator</title>
+
+<meta charset='utf8'>
+<link rel='stylesheet' href='style.css'>
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+<strong>Party priority:</strong>
+<ol id='party'></ol>
+
+<script type='module'>
+  import * as rpg from './rpg.js'
+  
+  var party=['Zidane','Vivi','Steiner','Garnet','Freya','Quina','Eiko','Amarant']
+  let result=document.querySelector('#party')
+  for(let p of rpg.shuffle(party)){
+    let i=document.createElement('li')
+    i.textContent=p
+    result.appendChild(i)
+  }
+</script>
